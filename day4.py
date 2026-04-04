@@ -16,7 +16,7 @@ all_results = []
 # 请确保从浏览器复制的最新的 Cookie 填入此处
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Cookie': '你的cookie',
+    'Cookie': 'YOUR_COOKIE_HERE',
     'Referer': 'https://xueqiu.com/',
     'Host': 'stock.xueqiu.com',
     'Accept': 'application/json, text/plain, */*'
