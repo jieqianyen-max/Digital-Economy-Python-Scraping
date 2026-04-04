@@ -4,7 +4,7 @@ import time
 # 你的身份门票（用你昨天成功的那个）
 headers = {
     'User-Agent': 'Mozilla/5.0...',
-    'Cookie': '你的cookie',
+    'Cookie': 'YOUR_COOKIE_HERE',
     'Referer': 'https://xueqiu.com/'
 }
 
