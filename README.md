@@ -34,13 +34,15 @@
 技能点：实时轮询 (Polling)、逻辑决策逻辑 (Decision Logic)、频率限制 (Rate Limiting)。
 ---
 
-### day57 进展：
+### day7 进展：
 
 * 建立了基于 requests.Session 和 HTTPAdapter 的自动重试机制。
 
 * 实现了爬虫的礼貌策略（Politeness Policy），通过随机延迟保护服务器资源。
 
 * 攻克了 latin-1 请求头编码异常，强化了对 HTTP 规范的理解
+
+### Day 8 开启动态爬取学习，成功搭建 Selenium 环境并实现模拟搜索。
 
 ## 📂 文件仓库说明
 * `diyi.py`: 基础静态网页抓取实战（Quotes 练习网站）。
