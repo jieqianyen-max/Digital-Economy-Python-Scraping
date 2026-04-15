@@ -78,10 +78,15 @@
 
 * 总结：今天利用 Pandas 实现了多标的资金流向计算。通过特征工程将原始成交 side 转换为净流入金额，并利用 groupby 实现了全市场截面分析。这是我第一个真正意义上的量化分析指标。
 
-## 📂 文件仓库说明
-* `diyi.py`: 基础静态网页抓取实战（Quotes 练习网站）。
-* `day2.py`: 雪球网金融数据接口逆向抓取脚本。
-* `*.xlsx`: 自动化采集生成的结构化数据成果。
+
+### Day 14 全市场资金流向监控系统
+* 自动化流水线：构建了支持 50 只热门股并发采集的 Python 引擎，具备重试机制与 IP 防封保护。
+
+* 量化因子建模：利用 Pandas 计算出核心因子 Flow Ratio（净流入占比），实现了从原始成交数据到投资信号的转化。
+
+* 多维度可视化：使用 Matplotlib/Seaborn 绘制了全市场资金截面对比图，以及冠军股 SZ301248 的盘中累计资金曲线。
+<img width="1200" height="600" alt="Market_Sentiment_Bar" src="https://github.com/user-attachments/assets/7eaaff36-07f8-4475-a02d-09220b305300" />
+<img width="1200" height="600" alt="Champion_Intraday_Trend" src="https://github.com/user-attachments/assets/856df539-7770-433a-811b-a6ce52871893" />
 
 
 ## 🛠️ 下阶段目标，写上：实现多线程批量采集与自动化预警系统。
