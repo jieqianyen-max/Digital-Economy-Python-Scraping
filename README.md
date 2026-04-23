@@ -89,4 +89,4 @@
 <img width="1200" height="600" alt="Champion_Intraday_Trend" src="https://github.com/user-attachments/assets/856df539-7770-433a-811b-a6ce52871893" />
 
 
-## 🛠️ 下阶段目标，写上：实现多线程批量采集与自动化预警系统。
+## 🛠️ 下阶段目标：实现多线程批量采集与自动化预警系统。
